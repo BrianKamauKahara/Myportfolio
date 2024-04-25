@@ -6,15 +6,21 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="flex flex-col flex-nowrap min-h-screen">
-    <header class="flex bg-orange-700 text-white py-2 px-12 justify-between">
-        <p class="text-2xl p-0.5 whitespace-nowrap">Hello I am Brian Kamau</p> 
-        <nav class="sm:flex hidden gap-6 border border-gray-600 rounded px-4 bg-gray-200 bg-opacity-50">
-            <a href="#intropage" class="decoration-transparent hover:opacity-70 grid place-content-center">Introduction</a>
-            <a href="#aboutarea" class="decoration-transparent hover:opacity-70 whitespace-nowrap grid place-content-center">About Me</a>
-            <a href="#contactpage" class="decoration-transparent hover:opacity-70 whitespace-nowrap grid place-content-center">Contact Page</a>
-        </nav>
+<body class="flex flex-col min-h-screen">
+    <header class="flex flex-nowrap justify-between sticky top-0 bg-orange-700 text-white py-2 px-12">
+        <p class="text-2xl p-0.5 whitespace-nowrap grid place-content-center">Hello I am Brian Kamau</p> 
+        <div class="flex">
+            <nav class=" sm:grid grid-flow-col hidden gap-6 border border-gray-600 rounded px-4 bg-gray-200 bg-opacity-50 ">
+                <a href="#intropage" class="decoration-transparent hover:opacity-70 grid place-content-center">Introduction</a>
+                <a href="#aboutarea" class="decoration-transparent hover:opacity-70 whitespace-nowrap grid place-content-center">About Me</a>
+                <a href="#contactpage" class="decoration-transparent hover:opacity-70 whitespace-nowrap grid place-content-center">Contact Page</a>
+            </nav>
+            <div class="grid place-content-center w-6 h-10 hover:cursor-pointer">
+                <button class="sm:hidden  bg-white w-6 h-0.5 rounded-full before:content-[''] before:bg-white before:h-0.5 before:w-6 before:rounded before:absolute before:-translate-x-3 before:-translate-y-[6px]  after:content-[''] after:bg-white after:h-0.5 after:w-6 after:rounded after:absolute after:-translate-x-3 after:translate-y-1">
+                </button>
+            </div>
+        </div>
     </header>
-    
+   
 </body>
 </html>
