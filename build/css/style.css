@@ -715,6 +715,10 @@ video {
   gap: 1.5rem;
 }
 
+.gap-4 {
+  gap: 1rem;
+}
+
 .self-center {
   align-self: center;
 }
@@ -782,6 +786,16 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.py-0 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
 .align-middle {
   vertical-align: middle;
 }
@@ -799,6 +813,30 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-\[1rem\] {
+  font-size: 1rem;
+}
+
+.text-\[2px\] {
+  font-size: 2px;
+}
+
+.text-\[6px\] {
+  font-size: 6px;
+}
+
+.text-\[10px\] {
+  font-size: 10px;
+}
+
+.text-\[4px\] {
+  font-size: 4px;
+}
+
+.text-\[12px\] {
+  font-size: 12px;
 }
 
 .text-white {
