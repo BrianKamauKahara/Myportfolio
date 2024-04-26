@@ -16,4 +16,7 @@
     .reverse-grid-flow{
         grid-auto-flow: column-reverse;
     }
+    .header-bg {
+        background: linear-gradient(to right,black,rgb(211, 211, 211));
+    }
 }
