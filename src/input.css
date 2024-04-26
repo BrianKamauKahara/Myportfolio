@@ -10,4 +10,10 @@
         font-size: clamp(14px,1rem,22px);
         line-height: clamp(14px,1.4rem,28px);
     }
+    .good-p-height{
+        height: calc(100% - 30px);
+    }
+    .reverse-grid-flow{
+        grid-auto-flow: column-reverse;
+    }
 }
