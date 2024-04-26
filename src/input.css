@@ -4,11 +4,12 @@
 
 @layer utilities {
     .bg-linear-gradient1{
-        background-image: linear-gradient(hsl(240, 38%, 51%),hsla(0, 51%, 35%, 0.514));
+        background-image: linear-gradient(hsl(240, 19%, 16%),hsla(0, 29%, 37%, 0.514));
     }
     .adjustable-font-size{
         font-size: clamp(14px,1rem,22px);
         line-height: clamp(14px,1.4rem,28px);
+        font-family: sans-serif,serif;
     }
     .good-p-height{
         height: calc(100% - 30px);
@@ -18,5 +19,8 @@
     }
     .header-bg {
         background: linear-gradient(to right,black,rgb(211, 211, 211));
+    }
+    h2{
+        font-family: 'Times New Roman', Times, serif;
     }
 }
