@@ -8,8 +8,8 @@
     <title>Brian's webpage</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="max-w-[100vw] flex flex-col min-h-screen bg-linear-gradient1">
-    <header class="z-10 flex flex-nowrap justify-between sticky top-0 header-bg text-white py-0 px-12 gap-4 border border-solid border-black rounded-t-[2px]">
+<body class="max-w-[100vw] flex flex-col min-h-screen bg-linear-gradient1 lg:max-w-[80vw] lg:mx-auto lg:border-x lg:border-solid lg:border-4 lg:border-black">
+    <header class="z-10 flex flex-nowrap justify-between sticky top-0 header-bg  text-white py-0 px-12 gap-4 border border-solid border-black rounded-t-[2px]">
         <p class="text-2xl p-0.5 whitespace-nowrap grid place-content-center">My Web Page</p> 
         <div class="flex">
             <nav class=" sm:grid grid-flow-col hidden gap-6  text-[12px]">
@@ -23,39 +23,41 @@
             </div>
         </div>
     </header>
-   <section id="intropage" class="sm:mx-8 sm:my-6 mx-2 my-1.5 opacity-60">
-         <!-- <img src="./img/placeholder.jpeg" alt="Picture of Me"> -->
+   <section id="intropage" class="sm:min-h-full sm:mx-8 sm:my-6 mx-2 my-1.5 opacity-60">
+        
        
        <section class="bg-slate-100 border border-black rounded-xl p-2 my-4">
-            <h1>Brian Kamau</h1>
-            <p class="adjustable-font-size">
+        <img src="./img/picofme.jpeg" alt="Picture of Me" width="300" height="300" class="rounded-full  border-double border-gray-900 border-[5px] grid place-content-center mx-auto md:float-left md:flow-root md:clear-both md:m-2">
+            <h1 class="font-extrabold">Brian Kamau's portfolio Webpage</h1>
+            <p class="adjustable-font-size m-2">
             Hello There 👋 Welcome to Brian Kamau's homepage. In this web page made using the finest of HTML, CSS and Tailwindcss &lbbrk;And <em>maybe even a little javascript</em>&rbbrk;, you shall embark on the wonderful journey of coming to know who exactly this young endearing man is. Therefore, hold my hand as I take you through various aspects of my life and much more facts about me much later. And feel free to message me through my contact page 
             </p>
+            <nav id="buttons" class="mx-4 bg-green-200 grid sm:grid-cols-3  gap-1 p-2 border border-gray-800 rounded-xl" aria-label="buttons" >
+                <button class="bg-slate-300 sm:py-4 bg border border-gray-950 rounded-xl text-xl text-black">
+                    <a href="#background">Background</a>
+                </button>
+                <button class="bg-slate-300 sm:py-4 bg border border-gray-950 rounded-xl text-xl text-black">
+                    <a href="#likesnhobbies">Likes and Hobbies</a>
+                </button>
+                <button class="bg-slate-300 sm:py-4 bg border border-gray-950 rounded-xl text-xl text-black">
+                    <a href="#passions">Passions</a>
+                </button>
+                <button class="bg-slate-300 sm:py-4 bg border border-gray-950 rounded-xl text-xl text-black">
+                    <a href="#values">My Values</a>
+                </button>
+                <button class="bg-slate-300 sm:py-4 bg border border-gray-950 rounded-xl text-xl text-black">
+                    <a href="#directed">Why DirectEd?</a>
+                </button>
+                <button class="bg-slate-300 sm:py-4 bg border border-gray-950 rounded-xl text-xl text-black">
+                    <a href="#goalsndreams">Goals and Dreams</a>
+                </button>
+           </nav> 
        </section>
-       <nav id="buttons" class="mx-4 bg-green-200 grid sm:grid-cols-3  gap-1 p-2 border border-gray-800 rounded-xl" aria-label="buttons" >
-            <button class="bg-slate-300 sm:py-4 bg border border-gray-950 rounded-xl text-xl text-black">
-                <a href="#background">Background</a>
-            </button>
-            <button class="bg-slate-300 sm:py-4 bg border border-gray-950 rounded-xl text-xl text-black">
-                <a href="#likesnhobbies">Likes and Hobbies</a>
-            </button>
-            <button class="bg-slate-300 sm:py-4 bg border border-gray-950 rounded-xl text-xl text-black">
-                <a href="#passions">Passions</a>
-            </button>
-            <button class="bg-slate-300 sm:py-4 bg border border-gray-950 rounded-xl text-xl text-black">
-                <a href="#values">My Values</a>
-            </button>
-            <button class="bg-slate-300 sm:py-4 bg border border-gray-950 rounded-xl text-xl text-black">
-                <a href="#directed">Why DirectEd?</a>
-            </button>
-            <button class="bg-slate-300 sm:py-4 bg border border-gray-950 rounded-xl text-xl text-black">
-                <a href="#goalsndreams">Goals and Dreams</a>
-            </button>
-       </nav> 
+       
        
    </section>
    <hr class="sm:w-2/3 w-1/2 mx-auto">
-   <section id="aboutarea" class="bg-blue-300 my-2 sm:mx-4 mx-2 rounded-[6px] block md:grid md:grid-flow-col md:grid-cols-3 md:grid-rows-2 sm:grid sm:grid-flow-row sm:grid-cols-2 sm:grid-rows-3">
+   <section id="aboutarea" class="min-h-screen  scroll-mt-20 bg-blue-300 my-2 sm:mx-4 mx-2 rounded-[6px] block md:grid md:grid-flow-col md:grid-cols-3 md:grid-rows-2 sm:grid sm:grid-flow-row sm:grid-cols-2 sm:grid-rows-3">
         <section id="background" class="bg-blue-400 rounded-[6px] m-1 border border-solid border-gray-700 p-1">
             <h2 class="text-center text-white bg-blue-600 rounded-t-[6px] border-black border border-b-1">
                 My Background
