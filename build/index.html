@@ -5,8 +5,9 @@
     <meta name="author" content="Brian Kamau">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
-    <title>Brian's webpage</title>
+    <title>portfolio</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
 </head>
 <body class="max-w-[100vw] flex flex-col min-h-screen bg-linear-gradient1 lg:max-w-[80vw] lg:mx-auto lg:border-x lg:border-double lg:border-4 lg:border-black">
     <header class="z-10 flex flex-nowrap justify-between sticky top-0 header-bg  text-white py-0 px-12 gap-4 border border-solid border-black rounded-t-[2px]">
@@ -17,10 +18,18 @@
                 <a href="#aboutarea" class=" decoration-transparent hover:opacity-70 hover:transition-all hover:scale-[1.1] hover:duration-200 focus-within:transition-all focus-within:scale-[1.1] focus-within:duration-200 focus-within:outline-none whitespace-nowrap grid place-content-center ">About Me</a>
                 <a href="#contactpage" class="decoration-transparent hover:opacity-70 hover:transition-all hover:scale-[1.1] hover:duration-200 focus-within:transition-all focus-within:scale-[1.1] focus-within:duration-200 focus-within:outline-none whitespace-nowrap grid place-content-center">Contact Page</a>
             </nav>
-            <div class="grid place-content-center w-6 h-10 hover:cursor-pointer">
-                <button class="sm:hidden  bg-white w-6 h-0.5 rounded-full before:content-[''] before:bg-white before:h-0.5 before:w-6 before:rounded before:absolute before:-translate-x-3 before:-translate-y-[6px]  after:content-[''] after:bg-white after:h-0.5 after:w-6 after:rounded after:absolute after:-translate-x-3 after:translate-y-1">
-                </button>
-            </div>
+            <button id="hb-button" class="grid place-content-center w-6 h-10 hover:cursor-pointer relative">
+                <div class="sm:hidden transition-all before:duration-500 before:transition-all after:duration-500 after:transition-all duration-500 bg-white w-6 h-0.5 rounded-full before:content-[''] before:bg-white before:h-0.5 before:w-6 before:rounded before:absolute before:-translate-x-3 before:-translate-y-[6px]  after:content-[''] after:bg-white after:h-0.5 after:w-6 after:rounded after:absolute after:-translate-x-3 after:translate-y-[6px]">
+                </div>
+                
+            </button>
+            <section id="dropdown" class="sm:hidden hidden justify-center gap-2 flex-col absolute top-10 right-0 w-[100px]  h-[100px] bg-slate-800 border border-white text-[12px]">
+                <a href="#intropage" class="border-opacity-60 border-b border-white grow grid place-content-center">Introduction</a>
+                <a href="#aboutarea" class="grow grid place-content-center border-opacity-60 border-b border-white">About Me</a>
+                <a href="#contactpage" class="grow grid place-content-center">Contact Page</a>
+            
+            </section>
+            
         </div>
     </header>
    <section id="intropage" class="sm:min-h-full sm:mx-8 sm:my-6 mx-2 my-1.5 scroll-m-10">
