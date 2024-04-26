@@ -3,4 +3,7 @@
 @tailwind utilities;
 
 @layer utilities {
+    .bg-linear-gradient1{
+        background-image: linear-gradient(hsl(240, 38%, 51%),hsla(0, 51%, 35%, 0.514));
+    }
 }
